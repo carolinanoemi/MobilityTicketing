@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\database",
+    "\\database\\postgres",
+    "\\database\\postgres\\experiments",
+    "\\database\\postgres\\experiments\\lecture04",
+    "\\database\\postgres\\migrations",
+    "\\docs"
+  ],
+  "SelectedNode": "\\database\\postgres\\experiments\\lecture04\\baseline.sql",
+  "PreviewInSolutionExplorer": false
+}

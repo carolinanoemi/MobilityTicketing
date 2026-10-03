@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\experiments\\lecture04\\baseline.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\experiments\\lecture04\\baseline.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\032_require_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\032_require_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\032_require_ticket_product.sql.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\032_require_ticket_product.sql.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\031_backfill_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\031_backfill_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\030_expand_product_identity.sql.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\030_expand_product_identity.sql.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\030_expand_product_identity.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\030_expand_product_identity.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\post_migrations.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\post_migrations.md||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\init\\010_ticketing_draft.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\init\\010_ticketing_draft.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\init\\001_relational_baseline.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\init\\001_relational_baseline.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\during_transition.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\during_transition.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\experiments\\lecture04\\old_reader.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\experiments\\lecture04\\old_reader.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\pre_migration.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\pre_migration.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\experiments\\lecture04\\baseline.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\experiments\\lecture04\\baseline.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\030_expand_product_identity.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\030_expand_product_identity.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\031_backfill_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\031_backfill_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\032_require_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\postgres\\migrations\\032_require_ticket_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 256,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "032_require_ticket_product.sql ",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\032_require_ticket_product.sql",
+              "RelativeDocumentMoniker": "database\\postgres\\migrations\\032_require_ticket_product.sql",
+              "ToolTip": "032_require_ticket_product.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-29T11:38:23.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "032_require_ticket_product.sql.example",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\032_require_ticket_product.sql.example",
+              "RelativeDocumentMoniker": "database\\postgres\\migrations\\032_require_ticket_product.sql.example",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\032_require_ticket_product.sql.example",
+              "RelativeToolTip": "database\\postgres\\migrations\\032_require_ticket_product.sql.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-29T11:38:21.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "031_backfill_ticket_product.sql ",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\031_backfill_ticket_product.sql",
+              "RelativeDocumentMoniker": "database\\postgres\\migrations\\031_backfill_ticket_product.sql",
+              "ToolTip": "031_backfill_ticket_product.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-29T11:38:20.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "030_expand_product_identity.sql.example",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\030_expand_product_identity.sql.example",
+              "RelativeDocumentMoniker": "database\\postgres\\migrations\\030_expand_product_identity.sql.example",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\030_expand_product_identity.sql.example",
+              "RelativeToolTip": "database\\postgres\\migrations\\030_expand_product_identity.sql.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-29T11:38:18.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "baseline.sql ",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\experiments\\lecture04\\baseline.sql",
+              "RelativeDocumentMoniker": "database\\postgres\\experiments\\lecture04\\baseline.sql",
+              "ToolTip": "baseline.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-20T16:04:33.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "post_migrations.md",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\post_migrations.md",
+              "RelativeDocumentMoniker": "docs\\post_migrations.md",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\post_migrations.md",
+              "RelativeToolTip": "docs\\post_migrations.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-21T09:49:20.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "001_relational_baseline.sql",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\init\\001_relational_baseline.sql",
+              "RelativeDocumentMoniker": "database\\postgres\\init\\001_relational_baseline.sql",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\init\\001_relational_baseline.sql",
+              "RelativeToolTip": "database\\postgres\\init\\001_relational_baseline.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-21T09:38:41.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "old_reader.sql",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\experiments\\lecture04\\old_reader.sql",
+              "RelativeDocumentMoniker": "database\\postgres\\experiments\\lecture04\\old_reader.sql",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\experiments\\lecture04\\old_reader.sql",
+              "RelativeToolTip": "database\\postgres\\experiments\\lecture04\\old_reader.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-20T17:07:09.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "during_transition.md",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\during_transition.md",
+              "RelativeDocumentMoniker": "docs\\during_transition.md",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\during_transition.md",
+              "RelativeToolTip": "docs\\during_transition.md",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-20T16:32:45.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "030_expand_product_identity.sql ",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\migrations\\030_expand_product_identity.sql",
+              "RelativeDocumentMoniker": "database\\postgres\\migrations\\030_expand_product_identity.sql",
+              "ToolTip": "030_expand_product_identity.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-20T16:29:41.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "010_ticketing_draft.sql",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\init\\010_ticketing_draft.sql",
+              "RelativeDocumentMoniker": "database\\postgres\\init\\010_ticketing_draft.sql",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\database\\postgres\\init\\010_ticketing_draft.sql",
+              "RelativeToolTip": "database\\postgres\\init\\010_ticketing_draft.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-21T09:40:07.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "pre_migration.md",
+              "DocumentMoniker": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\pre_migration.md",
+              "RelativeDocumentMoniker": "docs\\pre_migration.md",
+              "ToolTip": "C:\\Users\\carol\\source\\repos\\mobilityticketing-lecture-4-starter\\docs\\pre_migration.md",
+              "RelativeToolTip": "docs\\pre_migration.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-20T16:26:50.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

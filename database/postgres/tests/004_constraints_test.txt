@@ -1,0 +1,19 @@
+INSERT 0 1
+ERROR:  new row for relation "products" violates check constraint "products_price_non_negative"
+DETAIL:  Failing row contains (PROD-TEST-BAD, OP-METRO, CPH, Test Ticket, -5.00).
+INSERT 0 1
+ERROR:  new row for relation "payments" violates check constraint "payments_amount_non_negative"
+DETAIL:  Failing row contains (PAY-TEST-BAD, TICKET-01, -25.00, DKK, pending, 2026-09-05 12:51:45.349358+00, null).
+ERROR:  new row for relation "payments" violates check constraint "payments_status_allowed"
+DETAIL:  Failing row contains (PAY-TEST-BADSTATUS, TICKET-01, 25.00, DKK, unicorn, 2026-09-05 12:51:45.34968+00, null).
+INSERT 0 1
+ERROR:  duplicate key value violates unique constraint "payments_external_ref_unique"
+DETAIL:  Key (external_ref)=(GATEWAY-TXN-001) already exists.
+INSERT 0 1
+INSERT 0 1
+ERROR:  new row for relation "tickets" violates check constraint "tickets_valid_window"
+DETAIL:  Failing row contains (TICKET-TEST-BAD, OP-METRO, USER-01, PROD-TEST-OK, LINE-M2, TRIP-M2-001, active, 2026-09-01 09:00:00+00, 2026-09-01 07:00:00+00).
+ERROR:  new row for relation "tickets" violates check constraint "tickets_status_allowed"
+DETAIL:  Failing row contains (TICKET-TEST-BADSTATUS, OP-METRO, USER-01, PROD-TEST-OK, LINE-M2, TRIP-M2-001, zombie, 2026-09-01 07:00:00+00, 2026-09-01 09:00:00+00).
+ERROR:  new row for relation "trips" violates check constraint "trips_status_allowed"
+DETAIL:  Failing row contains (TRIP-TEST-BADSTATUS, LINE-M2, 2026-09-01, 2026-09-01 07:00:00+00, floating).
