@@ -1,6 +1,6 @@
 # Compulsory Assignment 1 review guide
 
-Submitted commit: *(fill in after final commit)*
+Submitted commit: *712378bd5ed1d13b59c6c54d0e20427981d72e6f*
 
 Setup and reset instructions: run `docker compose up -d` from the repository
 root. Reset with `docker compose down` then `docker compose up -d`. The
