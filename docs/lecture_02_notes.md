@@ -1,6 +1,6 @@
 # Lecture 2 — SQL operations and constraints
 
-## Data integrity: rule → mechanism
+## Data integrity: rule to mechanism
 
 | Rule | Mechanism | Status |
 |---|---|---|

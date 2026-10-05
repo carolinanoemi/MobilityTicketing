@@ -24,9 +24,9 @@ pay for it, and have it validated when they board.
 
 See `er_diagram.drawio` (or the image export alongside this file). Entities:
 operators, routes, stops, route_stops, trips, users, products, tickets,
-payments, validations. All cardinalities are one-to-many (e.g. one operator →
-many routes, one route → many trips, one ticket → many payments, one ticket →
-many validations).
+payments, validations. All cardinalities are one-to-many (e.g. one operator has
+many routes, one route has many trips, one ticket has many payments, one
+ticket has many validations).
 
 ## Primary key decision: `route_stops`
 
@@ -43,7 +43,7 @@ exercise that case.
 
 ## Functional dependency
 
-`(route_id, stop_sequence) → stop_id` in `route_stops`: for a given route and
+`(route_id, stop_sequence) determines stop_id` in `route_stops`: for a given route and
 position in its sequence, the stop at that position is fully determined.
 
 This is exactly why `stop_sequence` alone can't be the key — it repeats across
@@ -69,7 +69,7 @@ availability are not yet modelled — those arrive in lecture 2.
 In my lecture 1 implementation, I added `operator_id` as a foreign key
 directly on `tickets` and `products`. The lecture 3/4 starter schema does not
 have `operator_id` on tickets — instead, you find the operator by following
-the chain `ticket → trip → route → operator`.
+the chain `ticket to trip to route to operator`.
 
 Both designs work. The tradeoff:
 - **Direct FK (my lecture 1 version):** faster to query "which operator does

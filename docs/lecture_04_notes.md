@@ -69,8 +69,8 @@ After this step:
 - Old code (readers and writers using `product_code`) still works fine.
 
 Product UUIDs generated:
-- DAY → `5a8270ce-c382-4a6a-a5b6-b51f1bb652ce`
-- SINGLE → `5513222e-74d7-4681-be0a-7d73be28339d`
+- DAY = `5a8270ce-c382-4a6a-a5b6-b51f1bb652ce`
+- SINGLE = `5513222e-74d7-4681-be0a-7d73be28339d`
 
 ## Step 4: Old and new code working side by side
 
@@ -84,8 +84,8 @@ Inserts a ticket using only `tickets.product_code`. Still works — the new
 
 ### New reader (`new_reader.sql`)
 Uses a two-path join:
-- If `tickets.product_id` is filled in → join `products` through that.
-- If `tickets.product_id` is still empty → fall back to joining through
+- If `tickets.product_id` is filled in, join `products` through that.
+- If `tickets.product_id` is still empty, fall back to joining through
   `tickets.product_code`.
 
 This means it works both before and after the backfill — it handles tickets

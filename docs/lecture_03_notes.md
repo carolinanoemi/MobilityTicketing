@@ -5,9 +5,9 @@
 | # | Approach | File / object | How it works |
 |---|---|---|---|
 | 1 | Direct query | `queries/base_revenue.sql` (no migration) | Re-adds up all payments from scratch every time. Always correct, nothing stored. |
-| 2 | Function | `020_reporting_function.sql` → `captured_revenue_for_day()` | Same re-add-up logic, just saved as a reusable shortcut. Always correct, nothing stored. |
-| 3 | Materialized view | `022_daily_captured_revenue.sql` → `daily_captured_revenue` | A saved snapshot. Only updates when you manually run `REFRESH`. Can go stale. |
-| 4 | Trigger-maintained table | `021_daily_revenue_trigger.sql` → `daily_revenue_by_operator` | Auto-updates when a new payment is inserted, but blind to edits, deletes, and data that existed before the trigger was created. |
+| 2 | Function | `020_reporting_function.sql` creates `captured_revenue_for_day()` | Same re-add-up logic, just saved as a reusable shortcut. Always correct, nothing stored. |
+| 3 | Materialized view | `022_daily_captured_revenue.sql` creates `daily_captured_revenue` | A saved snapshot. Only updates when you manually run `REFRESH`. Can go stale. |
+| 4 | Trigger-maintained table | `021_daily_revenue_trigger.sql` creates `daily_revenue_by_operator` | Auto-updates when a new payment is inserted, but blind to edits, deletes, and data that existed before the trigger was created. |
 
 ## Initial backfill gap
 
@@ -20,7 +20,7 @@ in time for rows already there. The other three read from the base tables
 
 ## Case 1: captured payment insert
 
-Inserted `PAY-CASE-CAPTURED` (36 DKK, `Captured`, `TICKET-1` → `OP-METRO`).
+Inserted `PAY-CASE-CAPTURED` (36 DKK, `Captured`, `TICKET-1`, operator `OP-METRO`).
 
 - **Trigger table:** OP-METRO: 36, 1 payment — correctly caught this new
   insert.
@@ -30,13 +30,13 @@ Inserted `PAY-CASE-CAPTURED` (36 DKK, `Captured`, `TICKET-1` → `OP-METRO`).
 
 ## Case 2: failed payment insert (should not count)
 
-Inserted `PAY-CASE-FAILED` (50 DKK, `Failed`, `TICKET-1` → `OP-METRO`).
+Inserted `PAY-CASE-FAILED` (50 DKK, `Failed`, `TICKET-1`, operator `OP-METRO`).
 
 - **Trigger table:** unchanged — still OP-METRO: 36, 1 payment.
 - **Direct query:** unchanged — still OP-METRO: 72, OP-BUS: 36.
 - Both correctly ignored it because `status = 'Failed'` is not `'Captured'`.
 
-## Case 3: correction — Failed → Captured
+## Case 3: correction — Failed to Captured
 
 Updated `PAY-CASE-FAILED` status from `'Failed'` to `'Captured'`.
 
@@ -47,7 +47,7 @@ Updated `PAY-CASE-FAILED` status from `'Failed'` to `'Captured'`.
   never on `UPDATE`. The 50 DKK payment is now `Captured` in the real data,
   but the trigger table has no idea it changed.
 
-## Case 4: correction — Captured → Refunded
+## Case 4: correction — Captured to Refunded
 
 Updated `PAY-CASE-CAPTURED` status from `'Captured'` to `'Refunded'`.
 
@@ -127,7 +127,7 @@ inserted after the trigger existed.
 
 `daily_revenue_by_operator` has no backfill path and no `UPDATE`/`DELETE`
 handling. It silently diverges from the source of truth the moment a payment
-is corrected (Failed → Captured, Captured → Refunded), deleted, or when an
+is corrected (Failed to Captured, Captured to Refunded), deleted, or when an
 operator's first payment predates the trigger's creation. There is no way to
 rebuild it from the trigger alone — it must be dropped, recreated, and
 manually backfilled from the base tables.
